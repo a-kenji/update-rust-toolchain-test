@@ -1,0 +1,10 @@
+name: update-rust-toolchain-test
+on:
+  workflow_dispatch:
+
+jobs:
+  lockfile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update rust-toolchain
+        uses: a-kenji/update-rust-toolchain@main
