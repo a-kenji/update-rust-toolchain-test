@@ -13,4 +13,4 @@ jobs:
         uses: a-kenji/update-rust-toolchain@main
         with:
           toolchain-path: ./rust-toolchain.toml
-          # token: ${{ secrets.GH_TOKEN_FOR_UPDATES }}
+          token: ${{ secrets.GH_TOKEN_FOR_UPDATES }}
