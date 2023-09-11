@@ -8,7 +8,7 @@ jobs:
     environment: "update"
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Update rust-toolchain
         uses: a-kenji/update-rust-toolchain@main
         with:
