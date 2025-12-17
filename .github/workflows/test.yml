@@ -12,10 +12,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
-        # with:
-        #   persist-credentials: false
+        with:
+          persist-credentials: false
       - name: Update rust-toolchain
         uses: a-kenji/update-rust-toolchain@main
         with:
           toolchain-path: ./rust-toolchain.toml
-          token: ${{ secrets.GH_TOKEN_FOR_UPDATES }}
+          token: ${{ github.token }}
