@@ -1,5 +1,5 @@
 # This file is automatically updated by the `update-rust-toolchain` action.
 [toolchain]
-channel = "1.68.0"
+channel = "1.78.0"
 components = ["rustfmt", "clippy", "rust-analysis"]
 targets = [ ]
